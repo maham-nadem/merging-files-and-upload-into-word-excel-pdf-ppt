@@ -1,0 +1,25 @@
+# File Merger Agent — How to Run
+
+## Windows
+Double-click:  START.bat
+That's it! Browser opens automatically.
+
+## Mac / Linux
+Open terminal in this folder and run:
+  chmod +x START.sh
+  ./START.sh
+
+## First Time Only
+The script will automatically:
+  - Install all packages
+  - Create the database
+  - Start backend + frontend
+  - Open your browser
+
+## Every Time After
+Just double-click START.bat again.
+Everything is already installed — it starts in seconds.
+
+## Requirements
+- Node.js must be installed: https://nodejs.org
+- PostgreSQL must be running with password: passWhen

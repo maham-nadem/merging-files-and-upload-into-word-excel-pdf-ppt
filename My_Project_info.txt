@@ -1,0 +1,26 @@
+PROJECT: File Merger Agent
+LOCATION: C:\Users\Bajwa\3D Objects\file-merger-agent
+
+TECH STACK:
+- Frontend: React (App.js, App.css)
+- Backend: Node.js + Express (server.js, mergeService.js)
+- Database: PostgreSQL - password: M@H@M00000
+- Port Backend: 5000
+- Port Frontend: 3000
+
+FEATURES ALREADY BUILT:
+- Upload multiple files (PDF, Word, Excel, CSV, PPTX, TXT)
+- Choose output format (PDF, Word, Excel, PPT)
+- AI smart file name suggestion
+- One-click merge
+- Download merged file
+- History in left sidebar
+- PostgreSQL database stores all history
+
+FILES:
+- UI changes = frontend/src/App.js
+- Design changes = frontend/src/App.css
+- API/Logic changes = backend/server.js
+- Merge logic = backend/mergeService.js
+
+START: Double-click START.bat
